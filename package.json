@@ -1,0 +1,27 @@
+{
+  "name": "fullnext",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "knex": "dotenv -e .env.local knex"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "js-cookie": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^1.0.3",
+    "mysql": "^2.18.1",
+    "next": "12.1.0",
+    "next-cookies": "^2.0.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "8.11.0",
+    "eslint-config-next": "12.1.0"
+  }
+}
